@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 95%;
+  height: 50px;
+  margin: 0 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 40px 5px;
+
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 40px auto;
+}
+
+header p {
+  width: 85%;
+  margin: 15px 15px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+h1 {
+
+  font-size: 4em;
+  margin: 45px auto;
+  font-family: 'Chelsea Market', cursive;
+}
+
+header img {
+  width: 30%;
+  border-radius: 60%;
+  margin: 20px 30px;
+}
+
+.intro {
+  background: rgb(230, 154, 146);
+  width: 100%;
+  justify-content: center;
+}
+
+.intro p {
+  margin: 5px 15px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.fire {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.fire img {
+  width: 10%;
+  margin: 20px auto;
+}
+.fire p {
+  width: 30%;
+  margin: 0 500px;
+}
+
+.bus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 250px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bus p {
+  margin: 0 200px;
+}
+footer {
+    background-color: #F9E7DC;
+  width: 400px;
+  height: 220px;
+  display: flex;
+}
+.footer img {
+  object-fit: cover;
+}
+
+.button1 {
+color:white;
+  width: 15%;
+  height:65px;
+  background-color: #FF764E;
+  border-radius: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  padding: 0 30px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button2 {
+    color:white;
+  width: 15%;
+  height:65px;
+  background-color: #5ED3EB;
+  border-radius: 20px;
+  font-size: 26px;
+  text-decoration: none;
+  text-align:center;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button3 {
+    color:white;
+  width: 14%;
+  height:65px;
+  background-color: #FFCD69;
+  border-radius: 20px;
+  font-size: 27px;
+  text-decoration: none;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+}
